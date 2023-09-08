@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+   
+</head>
+<body>
+    <h1><center>REGISTRATION FORM</center></h1><br><br>
+
+    <form action="submit.html" method="post">
+        
+        <label for="name" id="l1">FIRSTNAME</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="t1" name="name" placeholder="enter firstname">
+<br><br><br>
+        <label for="name" id="l1">LASTNAME</label>&nbsp;&nbsp;&nbsp;
+        <input type="text" id="t1" name="name" placeholder="enter lastname">
+<BR><BR><br>
+        <label for="email" id="l1">EMAIL-ID</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" id="t1" name="mail-id" placeholder="enter email-id">
+<br><br><br>
+        <label for="password" id="l1">PASSWORD</label>&nbsp;&nbsp;
+        <input type="password" id="t1" name="password" minlength="5" placeholder="enter password" required>
+<br><br><br>
+        <label for="number" id="l1">CONTACT NO</label> &nbsp;
+         <input type="tel" id="t1" placeholder="enter mobile number" required>
+<br><br> <br>
+        <label for="DOB" id="l1">DATE OF BIRTH</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="date" id="t1" name="date">
+<br><br><br>
+       <label for="gender" id="l1">GENDER</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="radio" id="t2">
+       <label for="male">MALE</label>
+       <input type="radio" id="t2">
+       <label for="female">FEMALE</label>
+<br><br><br>
+
+        <label for="education" id="l1" required>QUALIFICATION</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select>
+        <option value="1">PG</option>
+        <option value="2">UG</option>
+        <option value="3">HSC</option>
+        <option value="4">SSLC</option>
+         <option value="5">OTHERS</option>
+        </select>
+<br><br><br>
+     <label for="file" id="l2">   FILES</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="file" id="t1">
+<br><br><br><br>
+      
+     <input type="checkbox" id="t2" value="checkbox" required>
+     <label for="checkbox" id="l1" >Remember Me</label>
+      <h3>By Creating an Account you agree to our <a href="">Terms & Privacy</a></h3>
+<br>
+     <a href="submit.html"><input type="submit" id="button" value="REGISTER NOW"></a>
+<br><br><br>
+</form>
+    <hr>
+     <h2>Already have an account? <a href="signIn.html">Then Sign in</a></h2>
+
+     <a href="signIn.html"><input type="button"  value="SIGN IN" style="background-color:rgb(13, 63, 180);
+        color:white;font-size: 17px;padding: 9px 18px;"></a>
+    
+
+    
+</body>
+</html>
